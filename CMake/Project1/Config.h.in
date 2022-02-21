@@ -1,0 +1,2 @@
+#define TestMath_VERSION_MAJOR @TestMath_VERSION_MAJOR@
+#define TestMath_VERSION_MINOR @TestMath_VERSION_MINOR@
