@@ -1,0 +1,12 @@
+The rule of five is a modern expansion of the rule of three. 
+Firstly, the rule of three specifies that if a class implements any of the following functions, it should implement all of them:
+
+copy constructor
+copy assignment operator
+destructor
+
+These functions are usually required only when a class is manually managing a dynamically allocated resource, and so all of them must be implemented to manage the resource safely.
+In addition, the rule of five identifies that it usually appropriate to also provide the following functions to allow for optimized copies from temporary objects:
+
+move constructor
+move assignment operator
